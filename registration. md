@@ -1,0 +1,149 @@
+<?php
+include 'config.php';
+
+?>
+
+<!Doc type-tutorial work>
+<html>
+<head>
+
+<link rel="stylesheet" href="style.css"></link>
+<title>Registration</title>
+
+<title>Registration</title>
+
+
+<h2 class="h" align="center">Welcome to WEb</h2>
+</head>
+<body id="b">
+<div id="d">
+
+
+<form action=" reg.php" method="post" align="center">
+
+</center>
+<img src="download.jpg" class="img"></img></center>
+<br>
+
+<label>User-First-Name</label>
+<input name="fname" type="text"  id="form" placeholder="Enter Your Name" required ></input>
+<br>
+
+<label>User-Last-Name</label>
+<input name="lname" type="text"  id="form" placeholder="Enter Your Name"required></input>
+<br>
+
+
+
+<label>User-Email</label>
+<input name="email" type="email"  id="form" placeholder="Enter Your email" required></input>
+<br>
+
+<label>User-password</label>
+<input name="pass" type="password"  id="form" placeholder="Enter Your confirm password" required></input>
+
+<label>Present Addresh </label>
+<input name="addresh" type="text"  id="form" placeholder="Enter Your present addresh"required></input>
+<br>
+
+<label>User Permanent Addresh</label>
+<input name="addersh" type="text"  id="form" placeholder="Enter Your permanent addresh" required ></input>
+<br>
+
+<label>User phone-Number</label>
+<input name="number" type="text"  id="form" placeholder="Enter Your phone number" required></input>
+<br>
+
+<label>User Date of Birth</label>
+<input name="date" type="text"  id="form" placeholder="Enter Your date of birth" required></input>
+<br>
+
+<input name="reg" type="submit"  id="button" value="sign-up"></input>
+
+<a href="login.php"><input name="reg" type="submit"  id="button" value="back to log-in"></input>
+
+
+</form>
+
+
+<?php
+if(isset($_post['reg'])){
+	$name= $_post['fname'];
+	
+	$name= $_post['lname'];
+	
+	$email= $_post['email'];
+	
+	$pass= $_post['pass'];
+	
+		$addresh= $_post['addresh'];
+		
+	$addresh= $_post['addresh'];
+	$pnumber= $_post['number'];
+	$date_of_birth= $_post['date'];
+}
+if($pass==$pass){
+	$query= "select*from datatable where email='$email'";
+	$query_check=mysqli_query($con,$query);
+	if($query_check){
+		if(mysqli_num_rows($query_check)>0){
+			
+echo"
+<script>
+alert('Email Already In Use');
+window.location.href='login.php';
+</script>
+";
+		}
+else{
+ $insertion="insert into datatable value('$name','$name','$email', '$pass', '$addresh','$addresh','$pnumber','$date_of_birth')";
+$run=mysqli_query($con, $insertion); 
+
+if($run){
+	echo"
+<script>
+alert'You are Successfully Registered');
+window.location.href='login.php';
+</script>
+";}
+}else{
+	echo"
+<script>
+alert('connection faild');
+window.location.href='reg.php';
+</script>
+";}
+}else{
+	
+	echo"
+<script>
+alert('database error');
+window.location.href='login.php';
+</script>
+";
+//query checkdate	
+}
+else{
+	echo"
+<script>
+alert('password & cpass does't match');
+window.location.href='login.php';
+
+//password check
+</script>
+";
+}
+else{
+	
+}
+}
+
+
+?>
+</div>
+
+
+</body>
+
+
+</html>
