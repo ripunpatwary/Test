@@ -1,0 +1,1858 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Home Page | UnicShopBD</title>
+
+
+       
+        <link rel="stylesheet" href="css/style.css">
+
+
+      
+
+        <link rel="shortcut icon" href="img/fav.png">
+
+    </head>
+
+
+    <body>
+    <nav class="top-bar anmte-drpdn">
+        <div class="container">
+            <div class="col-md-4 col-sm-4 no-margin hidden-xs">
+                <ul class="mar-t-5">
+                    <li><a target="_blank" href="#" class="fab fa-facebook-f"></a></li>
+
+                    <li><a target="_blank" href="#" class="fab fa-twitter"></a></li>
+
+                    <li><a target="_blank" href="#" class="fab fa-instagram"></a></li>
+
+                    <li><a target="_blank" href="#" class="fab fa-linkedin-in"></a></li>
+
+                    <li><a target="_blank" href="" class="fas fa-rss"></a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-8 col-sm-8 col-xs-12 no-margin">
+                <ul class="right">
+
+                    <li><a href="Login.html"><i class="fa fa-lock fw-r5"></i> Login</a></li>
+                    <li><a href="Register.html"><i class="fa fa-book fw-r5"></i> Register</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="no-padding-bottom header-alt">
+        <div class="container no-padding">
+                <div class="col-md-3 col-sm-6 col-xs-12 logo-holder">
+                    <div class="logo">
+                       <img src="img/h_logo.gif" alt="UnicShop" />
+                    </div>
+                </div>
+                <div class="col-md-6 hidden-sm hidden-xs top-search-holder no-margin">
+                    <div class="search-area">
+                        <form id="header_search_form" method="get" action="#">
+                            <div class="control-group">
+                                <input id="header_search_for" type="hidden" name="a" value="search">
+                                <input type="hidden" name="b" value="search">
+                                <input class="search-field" name="keyword" placeholder="Search for ..." required>
+
+                                <button role="button" type="submit" class="btn search-button"><i class="fas fa-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12 top-cart-row no-margin">
+                  <div class="top-cart-row-container">
+                    <div class="top-cart-holder dropdown animate-dropdown">
+
+                        <div class="basket">
+                            <a class="dropdown-toggle link-secondary" data-toggle="dropdown" href="#">
+                                <div class="basket-item-count">
+                                    <span class="count">0</span>
+                                    <img src="img/icon-cart.png" alt="" />
+                                </div>
+
+                                <div class="total-price-basket">
+                                    <span class="lbl">Your Cart:</span>
+                                    <span class="total-price">
+                                        0.00USD
+                                    </span>
+                                </div>
+                            </a>
+                            <ul class="dropdown-menu">
+
+                                <li class="checkout">
+                                    <div class="basket-item">
+                                        <p class="alert text-center text-black font-16">Shopping cart is empty !</p>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav id="top-megamenu-nav" class="megamenu-vertical animate-dropdown">
+            <div class="container">
+                <div class="yamm navbar">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mc-horizontal-menu-collapse">
+                            
+                            <span class=""><i class="fa fa-list fw-r10"></i> Main Menu</span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="mc-horizontal-menu-collapse">
+                        <ul class="nav navbar-nav">
+                          <li><a href="index.html"><i class="fa fa-home fw-r10"></i> Home</a></li>
+
+                          <li><a href="Shop.html"><i class="fa fa-shopping-cart fw-r10"></i> Shop</a></li>
+
+
+                          <li><a href="Blog.html"><i class="fab fa-blogger"></i> Blog</a></li>
+
+
+                          <li><a href="Contact.html"><i class="fa fa-envelope fw-r10"></i> Contact Us</a></li>
+
+                          <li><a href="About.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+
+            <div class="slider-wrapper theme-default res ">
+                <div id="slider" class="nivoSlider border-bottom">
+                    <img src="img/samsung_m.jpg" data-thumb="samsung_m.jpg" alt="samsung" />
+                    <img src="img/acer-swift.jpg" data-thumb="acer-swift.jpg" alt="acer" />
+                    <img src="img/Xiaomi_Mi.jpg" data-thumb="img/Xiaomi_Mi.jpg" alt="mi" />
+                    <img src="img/mac_book.jpg" data-thumb="img/mac_book.jpg" alt="macbook" />
+                    <img src="img/asus_laptop.jpg" data-thumb="img/asus_laptop.jpg" alt="asus" />
+                    <img src="img/oppo_m.jpg" data-thumb="img/oppo_m.jpg" alt="oppo" />
+                </div>
+            </div>
+
+            <div class="pad-b-50 mar-t-20 rsmar">
+                <div class="container">
+                    <div class="tab-holder">
+
+                            <ul class="nav nav-tabs" >
+                                <li class="active"><a href="#featured" data-toggle="tab">Featured</a></li>
+                                <li ><a href="#new-arrivals" data-toggle="tab">New Arrivals</a></li>
+                            </ul>
+
+                        <div class="tab-content">
+
+                            <div class="tab-pane active" id="featured">
+                                <div class="product-grid-holder">
+
+                                    <div class="col-md-3 col-sm-3 col-xs-12 no-margin product-item-holder hover">
+
+                                        <div class="product-item">
+
+
+                                            <div class="ribbon green"><span>Featured</span></div>
+
+                                            <a href="">
+                                                <div class="image">
+                                                    <img src="img/samsung_s9.jpg" alt="samsung_s9"/>
+                                                </div>
+                                            </a>
+
+                                            <div class="body">
+
+                                                <div class="title text-center">
+                                                    <a  href="">Samsung Galaxy S9</a>
+                                                </div>
+                                                    <a class="category text-center" href="5">Smart Phones</a>
+                                            </div>
+
+                                            <div class="prices">
+                                                <div class="price-current text-center">999 <i class="fas fa-dollar-sign"></i>USD</div>
+                                            </div>
+
+                                            <div class="hover-area">
+                                                <div class="add-cart-button">
+                                                    <a class="le-button" href="Preview.html"><i class="fa fa-caret-up fw-r10"></i> Preview</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-md-3 col-sm-3 col-xs-12 no-margin product-item-holder hover">
+
+                                        <div class="product-item">
+
+
+                                            <div class="ribbon green"><span>Featured</span></div>
+
+                                            <a href="">
+                                                <div class="image">
+                                                    <img src="img/samsung_s9.jpg" alt="samsung_s9"/>
+                                                </div>
+                                            </a>
+
+                                            <div class="body">
+
+                                                <div class="title text-center">
+                                                    <a  href="">Samsung Galaxy S9</a>
+                                                </div>
+                                                    <a class="category text-center" href="5">Smart Phones</a>
+                                            </div>
+
+                                            <div class="prices">
+                                                <div class="price-current text-center">999 <i class="fas fa-dollar-sign"></i>USD</div>
+                                            </div>
+
+                                            <div class="hover-area">
+                                                <div class="add-cart-button">
+                                                    <a class="le-button" href="Preview.html"><i class="fa fa-caret-up fw-r10"></i> Preview</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-md-3 col-sm-3 col-xs-12 no-margin product-item-holder hover">
+
+                                        <div class="product-item">
+
+
+                                            <div class="ribbon green"><span>Featured</span></div>
+
+                                            <a href="">
+                                                <div class="image">
+                                                    <img src="img/samsung_s9.jpg" alt="samsung_s9"/>
+                                                </div>
+                                            </a>
+
+                                            <div class="body">
+
+                                                <div class="title text-center">
+                                                    <a  href="">Samsung Galaxy S9</a>
+                                                </div>
+                                                    <a class="category text-center" href="5">Smart Phones</a>
+                                            </div>
+
+                                            <div class="prices">
+                                                <div class="price-current text-center">999 <i class="fas fa-dollar-sign"></i>USD</div>
+                                            </div>
+
+                                            <div class="hover-area">
+                                                <div class="add-cart-button">
+                                                    <a class="le-button" href="Preview.html"><i class="fa fa-caret-up fw-r10"></i> Preview</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-md-3 col-sm-3 col-xs-12 no-margin product-item-holder hover">
+
+                                        <div class="product-item">
+
+
+                                            <div class="ribbon green"><span>Featured</span></div>
+
+                                            <a href="">
+                                                <div class="image">
+                                                    <img src="img/samsung_s9.jpg" alt="samsung_s9"/>
+                                                </div>
+                                            </a>
+
+                                            <div class="body">
+
+                                                <div class="title text-center">
+                                                    <a  href="">Samsung Galaxy S9</a>
+                                                </div>
+                                                    <a class="category text-center" href="5">Smart Phones</a>
+                                            </div>
+
+                                            <div class="prices">
+                                                <div class="price-current text-center">999 <i class="fas fa-dollar-sign"></i>USD</div>
+                                            </div>
+
+                                            <div class="hover-area">
+                                                <div class="add-cart-button">
+                                                    <a class="le-button" href="Preview.html"><i class="fa fa-caret-up fw-r10"></i> Preview</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="tab-pane" id="new-arrivals">
+                                <div class="product-grid-holder">
+
+                                    <div class="col-md-3 col-sm-3 col-xs-12 no-margin product-item-holder hover">
+
+                                        <div class="product-item">
+
+
+                                            <div class="ribbon green"><span>New Arrivals</span></div>
+
+                                            <a href="">
+                                                <div class="image">
+                                                    <img src="img/samsung_s9.jpg" alt="samsung_s9"/>
+                                                </div>
+                                            </a>
+
+                                            <div class="body">
+
+                                                <div class="title text-center">
+                                                    <a  href="">Samsung Galaxy S9</a>
+                                                </div>
+                                                    <a class="category text-center" href="5">Smart Phones</a>
+                                            </div>
+
+                                            <div class="prices">
+                                                <div class="price-current text-center">999 <i class="fas fa-dollar-sign"></i>USD</div>
+                                            </div>
+
+                                            <div class="hover-area">
+                                                <div class="add-cart-button">
+                                                    <a class="le-button" href="Preview.html"><i class="fa fa-caret-up fw-r10"></i> Preview</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-md-3 col-sm-3 col-xs-12 no-margin product-item-holder hover">
+
+                                        <div class="product-item">
+
+
+                                            <div class="ribbon green"><span>New Arrivals</span></div>
+
+                                            <a href="">
+                                                <div class="image">
+                                                    <img src="img/samsung_s9.jpg" alt="samsung_s9"/>
+                                                </div>
+                                            </a>
+
+                                            <div class="body">
+
+                                                <div class="title text-center">
+                                                    <a  href="">Samsung Galaxy S9</a>
+                                                </div>
+                                                    <a class="category text-center" href="5">Smart Phones</a>
+                                            </div>
+
+                                            <div class="prices">
+                                                <div class="price-current text-center">999 <i class="fas fa-dollar-sign"></i>USD</div>
+                                            </div>
+
+                                            <div class="hover-area">
+                                                <div class="add-cart-button">
+                                                    <a class="le-button" href="Preview.html"><i class="fa fa-caret-up fw-r10"></i> Preview</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-md-3 col-sm-3 col-xs-12 no-margin product-item-holder hover">
+
+                                        <div class="product-item">
+
+
+                                            <div class="ribbon green"><span>New Arrivals</span></div>
+
+                                            <a href="">
+                                                <div class="image">
+                                                    <img src="img/samsung_s9.jpg" alt="samsung_s9"/>
+                                                </div>
+                                            </a>
+
+                                            <div class="body">
+
+                                                <div class="title text-center">
+                                                    <a  href="">Samsung Galaxy S9</a>
+                                                </div>
+                                                    <a class="category text-center" href="5">Smart Phones</a>
+                                            </div>
+
+                                            <div class="prices">
+                                                <div class="price-current text-center">999 <i class="fas fa-dollar-sign"></i>USD</div>
+                                            </div>
+
+                                            <div class="hover-area">
+                                                <div class="add-cart-button">
+                                                    <a class="le-button" href="Preview.html"><i class="fa fa-caret-up fw-r10"></i> Preview</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-md-3 col-sm-3 col-xs-12 no-margin product-item-holder hover">
+
+                                        <div class="product-item">
+
+
+                                            <div class="ribbon green"><span>New Arrivals</span></div>
+
+                                            <a href="">
+                                                <div class="image">
+                                                    <img src="img/samsung_s9.jpg" alt="samsung_s9"/>
+                                                </div>
+                                            </a>
+
+                                            <div class="body">
+
+                                                <div class="title text-center">
+                                                    <a  href="">Samsung Galaxy S9</a>
+                                                </div>
+                                                    <a class="category text-center" href="5">Smart Phones</a>
+                                            </div>
+
+                                            <div class="prices">
+                                                <div class="price-current text-center">999 <i class="fas fa-dollar-sign"></i>USD</div>
+                                            </div>
+
+                                            <div class="hover-area">
+                                                <div class="add-cart-button">
+                                                    <a class="le-button" href="Preview.html"><i class="fa fa-caret-up fw-r10"></i> Preview</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="carousel-holder" >
+
+                    <div class="title-nav">
+                          <h1>Our Partners</h1>
+                        <div class="nav-holder"></div>
+                    </div>
+
+                    <div class="owl-carousel owl-theme">
+
+                        <div class="item">
+                              <a href="#">
+                                  <img src="img/Xiaomi.png" />
+                              </a>
+                        </div>
+
+                        <div class="item">
+                              <a href="#">
+                                  <img src="img/oppo.png" />
+                              </a>
+                        </div>
+
+                        <div class="item">
+                              <a href="#">
+                                  <img src="img/samsung.png" />
+                              </a>
+                        </div>
+
+                        <div class="item">
+                              <a href="#">
+                                  <img src="img/iphone.png" />
+                              </a>
+                        </div>
+
+                        <div class="item">
+                              <a href="#">
+                                  <img src="img/asus.png" />
+                              </a>
+                        </div>
+
+                        <div class="item">
+                              <a href="#">
+                                  <img src="img/acer.png" />
+                              </a>
+                        </div>
+
+                        <div class="item">
+                              <a href="#">
+                                  <img src="img/dell.png" />
+                              </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+
+
+
+
+    <footer id="footer" class="">
+
+                <div class="link-list-row">
+                    <div class="container no-padding">
+                        <div class="col-xs-12 col-md-4 ">
+                            <div class="contact-info">
+                                <div class="footer-logo text-center">
+                                        <img src="img/f_logo.png" alt="Techno  Shop"/>
+                                </div>
+
+
+
+                                <div class="social-icons text-center">
+                                    <ul>
+
+                                        <li><a target="_blank" href="#" class="fab fa-facebook-f bg-light-blue"></a></li>
+
+                                        <li><a target="_blank" href="#" class="fab fa-twitter bg-aqua"></a></li>
+
+                                        <li><a target="_blank" href="#" class="fab fa-instagram bg-red"></a></li>
+
+                                        <li><a target="_blank" href="#" class="fab fa-linkedin-in bg-black"></a></li>
+
+                                        <li><a target="_blank" href="#" class="fas fa-rss bg-orange"></a></li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-8 no-margin">
+                            <div class="link-widget">
+                                <div class="widget">
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+
+                                        <li><a href="Shop.html">Shop</a></li>
+
+                                        <li><a href="Blog.html">Blog</a></li>
+
+                                        <li><a href="Contact.html">Contact Us</a></li>
+
+                                        <li><a href="About.html">About Us</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="link-widget">
+                                <div class="widget">
+                                    <ul>
+                                        <li><a href="">Terms of Service</a></li>
+                                        <li><a href="">Privacy Policy</a></li>
+                                        <li><a href="">Return Policy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="copyright-bar">
+                    <div class="container">
+                        <div class="col-md-6 col-sm-6 col-xs-12 no-margin">
+                            <div class="copyright">
+                                <strong>Copyright © 2019 UnicshopBD All Rights Reserved.</strong>	
+                                <p>Powered by Strong Signals</p>			
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 no-margin">
+                            <div class="payment-methods ">
+                                <ul>
+                                    <li><img alt="" src="img/bkash.png"></li>
+                                    <li><img alt="" src="img/rocket.png"></li>
+                                    <li><img alt="" src="img/mastercard.png"></li>
+                                    <li><img alt="" src="img/ucash.png"></li>
+                                    <li><img alt="" src="img/surecash.png"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </footer>
+
+
+
+        <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+        <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+        </script>
+
+
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/wow-owl.js"></script>
+
+
+    </body>
+</html>
+
+
+stylesheet:-................................................................................................/////////////////////////
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import "boot-additional.css";
+@import "pricing.css";
+
+.flag-menu-item a {
+	padding-right: 5px !important;
+	padding-left: 5px !important;
+}
+
+.top-flag {
+	max-height: 20px;
+}
+
+.text-light {
+	color: #666;
+}
+
+.text-inactive {
+	color: #c00 !important;
+	text-decoration: line-through !important;
+}
+
+.break-word {
+    word-wrap: break-word;
+}
+
+.auto-margin {
+	margin: auto;
+}
+.auto-height {
+  height: auto !important;
+}
+
+.form-control.auto-height {
+  min-height: 35px;
+	word-wrap: break-word;
+}
+
+.tags-list {
+	list-style: none;
+	padding: 5px;
+}
+
+.tags-list li {
+	display: inline-block;
+}
+
+.tags-list li a {
+	display: inline-block;
+	margin: 3px;
+	font-size: 16px;
+	color: #FFF;
+	padding: 5px 10px;
+	border-radius: 5px;
+	background: #aaa;
+}
+
+div.form-control {
+  margin: 0 0 10px;
+}
+
+.mar{
+	margin: 50px auto 30px;
+}
+
+.mar1{
+	margin: 40px auto;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.payment-gateway-icon {
+	height: 90px;
+	width: auto;
+	max-width: 100%;
+}
+
+.upackage-hash-view {
+    font-size: 12px;
+    line-height: 1.5em;
+	margin-bottom: 5px;
+}
+
+.invoice-label > span {
+    clear: both;
+    display: block;
+		line-height: 1.5em;
+		margin-top: 5px;
+}
+
+.invoice-label .label-order {
+	font-weight: 700;
+}
+
+.invoice-label .label-text {
+    clear: both;
+    display: block;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 10px 5px;
+}
+
+.invoice-view-table .item-title, .order-view-table .item-title {
+	font-size: 14px;
+}
+
+.invoice-logo-view {
+	max-height: 120px;
+	max-width: 100%;
+}
+
+.image-form-control {
+	cursor: pointer;
+	display: block;
+}
+.account-sidemenu li a {
+	font-size: 14px;
+	font-weight: 600;
+	border-radius: 0;
+}
+.account-sidemenu li.active a {
+	font-weight: 700;
+}
+.search-results-box {
+	display: block;
+	margin: 10px;
+	padding: 10px 15px;
+	text-align: center;
+	background: #eaeaea;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+.search-results-box:hover,.search-results-box:active {
+    background: #ddd;
+}
+
+.search-results-box h1.num-results {
+	font-size: 45px;
+}
+
+.search-results-box h3.results-title {
+	font-size: 18px;
+	letter-spacing: -.3px;
+	line-height: 35px;
+	margin-top: 10px;
+	color: #333;
+}
+
+.search-results-box .results-btn {
+	margin-top: 15px;
+}
+
+.agreement-article {
+		line-height: 2em;
+}
+
+.agreement-article .agreement-block {
+	  margin-bottom: 40px;
+}
+
+.agreement-article h3.agreement-headline {
+		margin-bottom: 20px;
+}
+
+.oupdate-table-view {
+  margin-bottom: 5px;
+}
+
+.oupdate-table-view .oupdate-image {
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+.oupdate-table-view .oupdate-content {
+  left: 10px;
+  display: block;
+  position: relative;
+}
+
+.oupdate-table-view .oupdate-content .oupdate-message {
+  font-size: 14px;
+  margin: 10px 0 0 0;
+  padding: 0px;
+  color: #666;
+}
+
+.oupdate-table-view .oupdate-content .oupdate-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #c00;
+  margin: 5px 0px;
+  padding: 0px;
+}
+
+.oupdate-table-view.is-user .oupdate-content .oupdate-name {
+  color: #00c;
+}
+
+.le-large-links {
+  list-style: none;
+}
+.le-large-links li {
+  line-height: 35px;
+}
+.le-large-links li a {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.le-large-links li a:hover:before {
+  margin: 0 15px 0 0;
+}
+.le-large-links li a:before {
+  font-size: 22px;
+  line-height: 15px;
+  margin: 0 10px 0 0;
+  content: "\f105";
+  font-family: fontawesome;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.post-entry {
+	margin: 20px 0px;
+}
+.post-entry .post-image {
+	margin: 15px 0px 30px 0px;
+}
+
+.info-center {
+	margin-top: 40px;
+}
+
+.info-center h1 {
+	font-size: 150px;
+	font-weight: 700 !important;
+	line-height: 150px;
+	margin-bottom: 40px;
+}
+
+.info-center h2 {
+    font-size: 70px;
+    font-weight: 700 !important;
+    line-height: 80px;
+	letter-spacing: -2px;
+	margin-bottom: 35px;
+}
+
+.info-center h3 {
+    font-size: 40px;
+    font-weight: 700 !important;
+    line-height: 50px;
+	letter-spacing: -2px;
+	margin-bottom: 30px;
+}
+
+.info-center h4 {
+    font-size: 30px;
+    font-weight: 700 !important;
+    line-height: 40px;
+    letter-spacing: -1px;
+	margin-bottom: 25px;
+}
+.info-center h5 {
+	font-size: 25px;
+	font-weight: 700 !important;
+	line-height: 35px;
+	letter-spacing: -1px;
+	margin-bottom: 20px;
+}
+
+.info-center .lead {
+	line-height: 2em;
+	font-weight: 400;
+}
+
+.info-center .sub-form-row input {
+    border: 1px solid #e0e0e0;
+    padding: 18px;
+    color: #3d3d3d;
+    width: 60%;
+    border-radius: 5px 0 0 5px;
+}
+
+.info-center .sub-form-row .le-button {
+    border-radius: 0 5px 5px 0;
+    padding: 19px 31px 20px 31px;
+    margin: 0 0 0 -5px;
+}
+
+.back-head {
+	margin: 20px 0px 20px 10px;
+	display: inline-block;
+	width: 100%;
+	text-align: left;
+}
+
+.back-head {
+	margin: 10px 0px 5px 3px;
+}
+
+.back-head .back-icon {
+	float: left;
+	height: 48px;
+	font-size: 30px;
+	vertical-align: middle;
+	clear: right;
+}
+
+.back-head .back-description {
+	display: block;
+	padding-top: 3px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #bbb;
+}
+
+.back-head .back-description.small-font {
+	font-size: 12px;
+	padding-top: 2px;
+}
+
+.page-title.sub-back-head {
+    margin: 10px 0px;
+	display: block;
+	font-weight: 600;
+}
+
+.inline-width {
+	display: inline-block;
+	width: 100%;
+}
+.back-head a:hover, .back-head a:focus {
+    color: #222;
+}
+
+.back-head .back-icon:hover, .back-head .back-icon:focus {
+    background: #222;
+}
+
+.back-head .title {
+	display: block;
+	word-wrap: break-word;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: -.5px;
+}
+.border-bottom{
+	border-bottom: 5px solid #1d5b98;
+}
+
+.back-head .title.small-font {
+	font-size: 16px;
+}
+
+.square-icon-small {
+    padding: 5px 18px;
+    border-radius: 10%;
+    font-size: 30px;
+}
+
+.bg-orange{
+	background-color: orange !important;
+}
+
+.bg-black{
+	background-color: black !important;
+}
+
+.bg-red{
+	background-color: red !important;
+}
+
+.bg-aqua{
+	background-color: #00c0ef !important;
+}
+
+.bg-light-blue{
+	background-color: #3c8dbc !important;
+}
+
+.square-icon-medium {
+	padding: 8px 22px;
+	border-radius: 10%;
+	font-size: 40px;
+}
+
+.square-icon-large {
+    padding: 15px 30px;
+    border-radius: 10%;
+    font-size: 48px;
+}
+
+.input-pad-rl {
+	padding: 0px 10px !important;
+}
+
+.downloads-search-home {
+	min-height: 120px;
+}
+
+.downloads-search-home .search-content {
+	padding: 35px 5px;
+}
+.downloads-search-home .search-block-input {
+	border-radius: 10px 0px 0px 10px !important;
+	font-size: 18px;
+	font-weight: 600;
+	color: #222;
+}
+
+.downloads-search-home .search-form-group {
+	min-width: 65%;
+}
+
+.single-download-content {
+	margin: 2%;
+	text-align: center;
+}
+
+.single-download-content .file-title {
+	margin-top: 0px;
+	color: #00C;
+	word-wrap: break-word;
+}
+
+.single-download-content .download-link-control {
+	height: auto;
+	display: block;
+	word-wrap: break-word;
+	font-weight: 600;
+}
+
+.single-download-content .download-description {
+	color: #333;
+	font-weight: 600;
+}
+
+.single-download-content .file-details {
+	font-size: 16px;
+	margin-top: 20px;
+	display: block;
+}
+
+.file-meta {
+	margin: 10px 0px;
+	display: block;
+	clear: both;
+}
+
+.single-file-content {
+	padding: 2%;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.single-file-content .file-title {
+	margin-top: 0px;
+	color: #000;
+	word-wrap: break-word;
+}
+
+.single-file-content .file-description {
+	color: #333;
+	font-weight: 600;
+}
+
+.single-file-content .file-details {
+	font-size: 16px;
+	margin-top: 20px;
+	display: block;
+}
+
+.single-file-content  .image {
+	margin: 0px 10px 10px 10px;
+	max-width: 100%;
+	height: auto;
+}
+
+.single-file-content  .image img {
+	max-width: 95%;
+	margin: auto;
+}
+
+.single-file-content .file-price {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fe4800;
+}
+
+.grid-list-files .grid-list-buttons {
+	padding: 7px;
+	float: right;
+	display: inline-block;
+	vertical-align: top;
+}
+.grid-list-files .grid-list-buttons ul li {
+	min-width: 49px;
+	margin: 0 23px 0 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.grid-list-files .grid-list-buttons ul li a i {
+    font-size: 19px;
+    color: #ccc;
+    vertical-align: bottom;
+}
+
+.grid-list-files .grid-list-buttons ul li a {
+    font-size: 13px;
+    color: #3d3d3d;
+    font-weight: 600;
+}
+
+.grid-list-files .grid-list-buttons ul li.active a {
+	font-weight: 700 !important;
+}
+
+.file-item, .file-grid-item {
+	height: 115px;
+	overflow: hidden;
+	margin: 10px;
+}
+
+.file-list-item {
+	position: relative;
+	margin: 10px 3px;
+	border: 1px solid #ddd;
+	padding: 10px 0px;
+	border-radius: 10px;
+	display: inline-block;
+	width: 100%;
+}
+
+.file-list-item .content-top {
+	height: 80px;
+	overflow: hidden;
+}
+
+.file-list-item .image {
+	padding-right: 5px;
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 10px;
+}
+
+.file-list-item .content-controls {
+	font-size: 12px;
+	text-align: left;
+	padding: 5px 0px;
+	width: 100%;
+}
+
+.file-list-item  .content-buttons {
+	float: right;
+	margin-top: 65px;
+	margin-right: 10px;
+}
+
+.file-list-item  .content-btn {
+	width: 120px;
+	font-size: 13px;
+	font-weight: 700;
+	border-radius: 5px;
+	padding: 7px 5px;
+}
+
+.file-list-item .body {
+	display: inline-block;
+	width: 75%;
+	left: 110px;
+	position: relative;
+}
+
+.file-list-item .title {
+	font-weight: 700;
+	line-height: 20px;
+	word-wrap: break-word;
+	font-size: 16px;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.file-list-item .title a {
+	color: #000;
+}
+
+.file-list-item .file-labels {
+	display: block;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+.file-list-item .file-labels .label {
+	margin-right: 5px;
+}
+
+.file-list-item .description {
+	padding-top: 4px;
+	font-size: 12px;
+	color: #666;
+}
+
+
+
+
+.file-item .content-top, .file-grid-item .content-top{
+	height: 80px;
+	overflow: hidden;
+}
+
+.file-item .content-bottom, .file-grid-item .content-bottom {
+	height: 30px;
+	overflow: hidden;
+	border: 1px solid #dedede;
+	border-radius: 10px;
+	margin-top: 5px;
+	font-weight: 600;
+	color: #222;
+}
+
+.file-item .content-bottom .content-controls, .file-grid-item .content-bottom .content-controls {
+	font-size: 11px;
+	text-align: center;
+	width: 65%;
+	padding: 5px;
+	height: 30px;
+	overflow: hidden;
+}
+
+.file-item .content-bottom .content-btn, .file-grid-item .content-bottom .content-btn {
+	display: block;
+	width: 35%;
+	position: absolute;
+	font-size: 12px;
+	font-weight: 700;
+	height: 30px;
+	right: 0px;
+	bottom: 10px;
+	border-radius: 0px 5px 5px 0px;
+	padding: 7px 5px;
+}
+
+
+
+.file-item .ribbon, .file-grid-item .ribbon {
+	position: absolute;
+	padding: 2px 8px;
+}
+
+.file-item .ribbon::after, .file-grid-item .ribbon::after {
+	border-top-width: 25px;
+	min-width: 60px;
+	border-right: 10px solid transparent;
+}
+
+.file-item .ribbon span, .file-grid-item .ribbon span {
+	margin-right: 5px;
+	font-size: 10px;
+}
+
+.file-item .image, .file-grid-item .image {
+	float: left;
+	margin-right: 5px;
+	width: 47%;
+}
+
+.file-item .image img, .file-grid-item .image img {
+	float: right;
+}
+
+.file-item .body, .file-grid-item .body {
+	float: left;
+	width: 50%;
+}
+
+.file-item .title, .file-grid-item .title {
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: -.5px;
+	word-wrap: break-word;
+	font-size: 14px;
+}
+
+.file-item .title a, .file-grid-item .title a {
+	color: #000;
+	font-size: 110%;
+}
+
+.file-item .description, .file-grid-item .description {
+	padding-top: 4px;
+	font-size: 12px;
+	color: #666;
+}
+
+
+.folder-item, .folder-home-item {
+	height: 80px;
+	overflow: hidden;
+	margin: 10px;
+}
+
+.folder-item .ribbon, .folder-home-item .ribbon {
+	position: absolute;
+	padding: 2px 8px;
+}
+
+.folder-item .ribbon::after, .folder-home-item .ribbon::after {
+	border-top-width: 25px;
+	min-width: 45px;
+	border-right: 10px solid transparent;
+}
+
+.folder-item .ribbon span, .folder-home-item .ribbon span {
+	margin-right: 5px;
+}
+
+.folder-item .image, .folder-home-item .image {
+	float: left;
+	margin-right: 5px;
+	width: 32%;
+}
+
+.folder-item .image img, .folder-home-item .image img {
+	float: right;
+}
+
+.folder-item .body, .folder-home-item .body {
+	float: left;
+	width: 65%;
+}
+
+.folder-item .title, .folder-home-item .title {
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: -.5px;
+	word-wrap: break-word;
+}
+
+.folder-item .title a, .folder-home-item .title a {
+	color: #000;
+}
+
+.folder-item .description, .folder-home-item .description {
+	padding-top: 4px;
+	font-size: 12px;
+	color: #666;
+}
+
+.announcements-footer-widget .dannouncement-footer-list {
+	padding: 10px;
+	background: #eaeaea;
+	border: 1px solid #cfcfcf;
+	border-radius: 10px;
+
+}
+.announcements-footer-widget .announcements-footer-list li a {
+	font-weight: 700;
+	word-wrap: break-word;
+}
+.announcements-footer-widget .announcements-footer-list li {
+	padding: 7px 5px;
+	font-size: 13px;
+	display: block;
+	border-bottom: 1px dotted #ccc;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+.announcements-footer-widget .announcements-footer-list li::before {
+    content: "\f0da";
+    display: inline-block;
+    font-family: fontawesome;
+    margin-right: 10px;
+}
+
+.downloads-footer-widget .dfiles-footer-list {
+	padding: 10px;
+	background: #eaeaea;
+	border: 1px solid #cfcfcf;
+	border-radius: 10px;
+
+}
+.downloads-footer-widget .dfiles-footer-list li a {
+	font-weight: 600;
+	line-height: 1.5em;
+	color: #000;
+	word-wrap: break-word;
+}
+.downloads-footer-widget .dfiles-footer-list li a:hover, .downloads-footer-widget .dfiles-footer-list li a:active {
+	text-decoration: underline;
+}
+.downloads-footer-widget .dfiles-footer-list li {
+    padding: 7px 0px;
+    font-size: 15px;
+    display: block;
+	border-bottom: 1px dashed #ccc;
+}
+
+.footer-widget .badge {
+	font-size: 11px;
+	font-weight: 600;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+
+.form-control {
+    background-color: #eef1f5;
+}
+
+.widget-head {
+	margin: 15px 5px;
+	color: #222;
+	font-size: 22px;
+}
+
+
+.downloads-visitor-usage {
+	background: #f3f3f3;
+	border-bottom: 1px solid #ccc;
+	color: #999;
+}
+
+.downloads-visitor-usage  .progress {
+	margin-bottom: 0px;
+	background: #FFF;
+	border: 1px solid #ccc;
+}
+
+.downloads-recent-header {
+	background: #222;
+	color: #FFF;
+	padding: 10px 5px;
+}
+
+.marker {
+    background: #fFff00;
+    color: #000;
+    padding: 0px 10px;
+}
+
+.mq-container  {
+	padding: 5px;
+}
+
+.marquee-set {
+ height: 50px;
+ overflow: hidden;
+ position: relative;
+}
+
+.marquee-set .marquee-content {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ text-align: center;
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);
+ transform:translateX(100%);
+ -moz-animation: marquee-set 15s linear infinite;
+ -webkit-animation: marquee-set 15s linear infinite;
+ animation: marquee-set 15s linear infinite;
+}
+
+@-moz-keyframes marquee-set {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+
+@-webkit-keyframes marquee-set {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes marquee-set {
+ 0%   {
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%);
+ }
+ 100% {
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%);
+ }
+}
+
+.marquee-set .marquee-content:hover {
+-moz-animation-play-state: paused;
+-webkit-animation-play-state: paused;
+animation-play-state: paused;
+}
+
+.mq-container .marquee-set {
+	background: #FFF;
+	color: #666;
+	border-radius: 5px;
+	height: 30px;
+}
+.mq-container .marquee-set  .mq-file-item {
+    font-size: 13px;
+    padding: 5px;
+    margin-right: 15px;
+    display: table-cell;
+    white-space: nowrap;
+}
+.mq-container .marquee-set a  {
+	font-weight: 700;
+}
+
+.mq-container .marquee-set .badge  {
+	font-size: 10px;
+	font-weight: 600;
+}
+
+.mq-container .marquee-set .item_detail  {
+	font-size: 11px;
+}
+
+#top-megamenu-nav2 .navbar {
+    margin: 0;
+}
+
+#top-megamenu-nav2 {
+    margin: 0px;
+    position: relative;
+    background-color: #e6e6e6;
+}
+
+#top-megamenu-nav2 .nav > li {
+    border-right-color: #ccc;
+}
+#top-megamenu-nav2 .navbar-nav > li {
+    border-right: 1px solid;
+    border-right-color: #ccc;
+}
+
+#top-megamenu-nav2 .navbar-nav > li > a {
+    text-transform: capitalize;
+    font-weight: bold;
+		color: #444;
+}
+
+#top-megamenu-nav2 .navbar-nav > li.active > a {
+		color: #999;
+}
+
+#top-megamenu-nav2 .nav > li > a:hover, #top-megamenu-nav2 .nav > li > a:focus, #top-megamenu-nav2 .nav > li > a:active {
+    background-color: #fff;
+}
+
+#top-megamenu-nav .navbar .navbar-toggle {
+	color: #F3F3F3;
+	font-weight: 600;
+}
+
+#top-megamenu-nav2 .navbar .navbar-toggle {
+	background-color: #929292;
+	border-color: #6f6f6f;
+  border-radius: 0;
+	color: #F3F3F3;
+	font-weight: 600;
+}
+
+.input-lfont {
+	font-size: 19px !important;
+}
+.single-product-gallery .owl-item {
+	max-height: 500px;
+}
+.single-product-gallery-thumbs,.single-product-gallery-thumbs .horizontal-thumb img {
+	height: 100px;
+}
+#single-product .title {
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+.width-200 {
+	width: 200px !important;
+}
+
+.label-xs-right {
+  text-align: right;
+}
+
+.select2-dropdown {
+  z-index: 9001;
+}
+
+.pagination-result-info{
+	margin: auto;
+	display: block;
+	padding: 30px 5px;
+}
+
+.page-title {
+ display: block;
+ margin: 29px 0 5px 0;
+ font-weight: 600;
+}
+
+h1.page-title {
+ font-size: 32px;
+}
+
+h2.page-title {
+ font-size: 28px;
+}
+
+.section-description {
+	display: block;
+	color: #a4a4a4;
+}
+
+.wrapper {
+	min-height: 400px;
+	margin-bottom: 20px;
+}
+
+.rsmar{
+	margin-top: 25px;
+}
+
+img {
+  max-width: 100%;
+}
+
+header .top-cart-row .top-cart-holder {
+	margin: 20px 0 0 0;
+}
+
+header .logo-holder .logo {
+    margin: 0;
+}
+
+header .logo img {
+	width: 233px;
+	height: auto;
+	max-height: 150px;
+}
+
+.footer-logo img {
+	width: 233px;
+	height: auto;
+	max-height: 150px;
+	margin: auto;
+}
+
+.search-area-top {
+	margin: 10px 0 0 0;
+	text-align: center;
+	font-weight: 500;
+}
+
+.social-icons li a:hover {
+	opacity: 0.7;
+}
+
+#owl-main .owl-wrapper {
+    margin-bottom: 30px;
+}
+
+.shop-products .product-grid-holder .product-item-holder {
+	min-height: 460px;
+}
+
+.single-product-gallery .gallery-thumbs .item a, .single-product-gallery .gallery-thumbs li a img {
+  height: 60px;
+  width: 60px;
+}
+
+.product-grid-holder .product-item-holder.size-medium .body .title {
+  height: 80px;
+  overflow: hidden;
+}
+
+.product-grid-holder .product-item-holder.size-medium {
+  height: 430px;
+}
+
+
+.product-category-item  .image {
+	text-align: center;
+	display: block;
+	height: 215px;
+	width: 215px;
+	margin: auto;
+}
+
+.product-category-item  .body {
+	text-align: center;
+	display: block;
+	margin: 0 34px;
+	height: 160px;
+	overflow: hidden;
+	padding-bottom: 5px;
+}
+
+.product-category-item .body .description {
+	font-size: 14px;
+    line-height: 20px;
+    margin-top: 7px;
+}
+
+.product-category-item .ribbon {
+	position: absolute;
+}
+
+.product-category-item .body .title {
+	min-height: 22px;
+	line-height: 26px;
+	font-size: 20px;
+	margin: 10px 0 0 0;
+}
+
+.product-grid-holder .product-item-holder.size-big .prices {
+	height: 80px;
+}
+
+.product-category-item .body .title a {
+	color: #111;
+	font-weight: bold;
+}
+
+.scroll-500 {
+  max-width: 100%;
+  word-wrap: break-word;
+  max-height: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.error {
+  color: #c00;
+  font-weight: 600;
+  padding-top: 3px;
+}
+
+.label-dt {
+  margin: 0px 2px;
+}
+
+.label-required::before {
+	content: "* ";
+	color: #d44;
+}
+
+div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info {
+    color: #999;
+}
+
+div.dataTables_wrapper div.dataTables_filter label input {
+	margin-left: 5px;
+}
+
+.pagination > li > a, .pagination > li > span {
+	color: #000;
+	background-color: #fff;
+  border-color: #ddd;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+	background-color: #e7e7e7;
+	border-color: #ddd;
+	color: #FFF !important;
+}
+
+header .top-search-holder .search-area .search-button {
+	max-height: 52px;
+}
+
+
+@media (max-width: 900px) {
+
+}
+
+@media (min-width: 768px) {
+	.form-group-view p {
+		  margin: 8px 0px 0px 0px;
+	}
+}
+
+@media (max-width: 768px) {
+
+	.file-list-item .body {
+		max-width: 460px;
+	}
+	.file-list-item .content-buttons {
+		margin-top: 5px;
+		margin-right: 5px;
+		float: none;
+		display: block;
+		position: relative;
+		right: -80%;
+	}
+}
+
+@media (max-width: 550px) {
+	.file-list-item .body {
+		max-width: 360px;
+	}
+	.file-list-item .content-buttons {
+		right: -50%;
+	}
+	.file-list-item .title {
+		font-size: 14px;
+		letter-spacing: -.5px.
+	}
+	.file-list-item .content-controls, .file-list-item .body .description {
+		display: none;
+	}
+	.file-list-item .file-labels {
+		font-size: 12px;
+	}
+	.file-list-item .file-labels .label {
+		margin-right: 0px;
+	}
+}
+
+@media (max-width: 400px) {
+	.file-list-item .body {
+		max-width: 130px;
+	}
+}
