@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Preview Page | UnicShopBD</title>
+
+
+        <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/nivo-slider.css">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="font/fontawesome-free-5.10.1-web/css/all.css">
+        <link rel="stylesheet" href="css/style.css">
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+        <link rel="shortcut icon" href="img/fav.png">
+
+    </head>
+
+
+    <body>
+    <nav class="top-bar anmte-drpdn">
+        <div class="container">
+            <div class="col-md-4 col-sm-4 no-margin hidden-xs">
+                <ul class="mar-t-5">
+                    <li><a target="_blank" href="#" class="fab fa-facebook-f"></a></li>
+
+                    <li><a target="_blank" href="#" class="fab fa-twitter"></a></li>
+
+                    <li><a target="_blank" href="#" class="fab fa-instagram"></a></li>
+
+                    <li><a target="_blank" href="#" class="fab fa-linkedin-in"></a></li>
+
+                    <li><a target="_blank" href="" class="fas fa-rss"></a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-8 col-sm-8 col-xs-12 no-margin">
+                <ul class="right">
+
+                    <li><a href="Login.html"><i class="fa fa-lock fw-r5"></i> Login</a></li>
+                    <li><a href="Register.html"><i class="fa fa-book fw-r5"></i> Register</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="no-padding-bottom header-alt">
+        <div class="container no-padding">
+                <div class="col-md-3 col-sm-6 col-xs-12 logo-holder">
+                    <div class="logo">
+                       <img src="img/h_logo.gif" alt="UnicShop" />
+                    </div>
+                </div>
+                <div class="col-md-6 hidden-sm hidden-xs top-search-holder no-margin">
+                    <div class="search-area">
+                        <form id="header_search_form" method="get" action="#">
+                            <div class="control-group">
+                                <input id="header_search_for" type="hidden" name="a" value="search">
+                                <input type="hidden" name="b" value="search">
+                                <input class="search-field" name="keyword" placeholder="Search for ..." required>
+
+                                <button role="button" type="submit" class="btn search-button"><i class="fas fa-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12 top-cart-row no-margin">
+                  <div class="top-cart-row-container">
+                    <div class="top-cart-holder dropdown animate-dropdown">
+
+                        <div class="basket">
+                            <a class="dropdown-toggle link-secondary" data-toggle="dropdown" href="#">
+                                <div class="basket-item-count">
+                                    <span class="count">0</span>
+                                    <img src="img/icon-cart.png" alt="" />
+                                </div>
+
+                                <div class="total-price-basket">
+                                    <span class="lbl">Your Cart:</span>
+                                    <span class="total-price">
+                                        0.00USD
+                                    </span>
+                                </div>
+                            </a>
+                            <ul class="dropdown-menu">
+
+                                <li class="checkout">
+                                    <div class="basket-item">
+                                        <p class="alert text-center text-black font-16">Shopping cart is empty !</p>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav id="top-megamenu-nav" class="megamenu-vertical animate-dropdown">
+            <div class="container">
+                <div class="yamm navbar">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mc-horizontal-menu-collapse">
+                            <span class="sr-only">Main Menu</span>
+                            <span class=""><i class="fa fa-list fw-r10"></i> Main Menu</span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="mc-horizontal-menu-collapse">
+                        <ul class="nav navbar-nav">
+                          <li><a href="index.html"><i class="fa fa-home fw-r10"></i> Home</a></li>
+
+                          <li><a href="Shop.html"><i class="fa fa-shopping-cart fw-r10"></i> Shop</a></li>
+
+
+                          <li><a href="Blog.html"><i class="fab fa-blogger"></i> Blog</a></li>
+
+
+                          <li><a href="Contact.html"><i class="fa fa-envelope fw-r10"></i> Contact Us</a></li>
+
+                          <li><a href="About.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+	<div class="wrapper">
+
+		<div class="container inner-bottom-xs inner-top-xs">
+
+			<div class="col-md-9 col-sm-12 col-xs-12">
+
+				<div id="single-product" class="row">
+					<div class="no-margin col-xs-12 col-sm-6 col-md-5 gallery-holder">
+						<div class="product-item-holder size-big single-product-gallery small-gallery">
+
+							  <div id="owl-single-product" class="owl-single-product">
+								  
+									<div class="single-product-gallery-item" id="slide0">
+										<a class="image-lightbox" data-rel="prettyphoto" href="">
+											<img src="img/samsung_s9.jpg" alt="samsung_s9"/>
+										</a>
+									</div>
+								  
+							  </div>
+
+						</div>
+					</div>
+					
+					
+					<div class="no-margin col-xs-12 col-sm-7 body-holder">
+						<div class="body">
+							<div class="availability">
+								<label>Availability:</label>
+								<span class="available">  In Stock</span>
+							</div>
+							  
+							<div class="star-holder">
+								<div class="star readonly" data-score="5"></div>
+							</div>
+
+							<h1 class="title line-height-1em"><a  href="#">Samsung Galaxy S9</a></h1>
+
+							<div class="excerpt">
+							  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+							</div>
+
+							<div class="prices">
+								<div class="price-current">1198.8USD</div>
+							</div>
+
+							<div class="qnt-holder">
+								<a class="le-button huge" href="Shopping_Cart.html"><i class="fa fa-shopping-cart fw-r10"></i> Add To Cart</a>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+
+
+				<div class="single-view-tab">
+					<div class="no-container">
+						<div class="tab-holder">
+
+							  <ul class="nav nav-tabs simple" >
+								  <li class="active"><a href="#description" data-toggle="tab">Description</a></li>
+								  
+								  <li ><a href="#comments" data-toggle="tab">Comments</a></li>
+								 
+							  </ul>
+
+								<div class="tab-content">
+								
+									<div class="tab-pane active scroll-500" id="description">
+										<p><strong><u>Details:</u></strong></p>
+
+										<p><strong><em>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</em></strong></p>
+
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+										
+										<p><strong><em>Lorem Ipsum is simply dummy text of the printing</em></strong></p>
+
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+										
+										<p><strong><em>Why do we use it?</em></strong></p>
+
+										<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+										
+										<p><strong><em>Where does it come from?</em></strong></p>
+
+										<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+										
+										<p><strong><em>Where can I get some?</em></strong></p>
+
+										<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+										
+										<p><strong><em>What is Lorem Ipsum?</em></strong></p>
+
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+										
+										
+									</div>
+							   
+									<div class="tab-pane active scroll-500" id="comments">
+									
+									<div id="" class="inner-bottom-xs">
+
+									
+										<h3>Comments</h3>
+											<div class="comments">
+												
+												<div class="comment-item">
+													<div class="row no-margin">
+														  <div class="col-lg-1 col-xs-12 col-sm-2 no-margin">
+															  <div class="avatar">
+																  <img alt="avatar" src="img/avatar.jpg">
+															  </div>
+														  </div>
+														<div class="col-xs-12 col-lg-11 col-sm-10 ">
+															<div class="comment-body">
+																<div class="meta-info">
+																	<div class="author inline">
+																		<a href="#" class="bold">admin</a>
+																	</div>
+																		  
+																	<div class="star-holder inline">
+																		<div class="star readonly" data-score="4"></div>
+																	</div>
+							
+																	<div class="date inline pull-right">
+																		25 Aug 2019
+																	</div>
+																</div>
+																<p class="comment-text">
+																	
+																</p>
+															</div>
+														</div>
+													</div>
+												</div>
+												
+											</div>
+
+											
+									
+
+											  <div class="add-review row">
+												  <div class="col-sm-8 col-xs-12">
+													  <div class="new-review-form">
+														  
+														  <form id="contact-form" class="contact-form" method="post">
+							
+															  <div class="field-row">
+																  <label>Comments</label>
+																  <textarea name="review_body" rows="8" class="le-input" pattern=".{1,1000}" required></textarea>
+															  </div>
+															  <div class="buttons-holder">
+																  <button type="submit" class="le-button huge disabled" disabled><i class="fa fa-pencil fw-r10"></i>Submit</button>
+															  </div>
+														  </form>
+													  </div>
+												  </div>
+											  </div>
+
+									</div>
+									
+									</div>
+									
+
+						
+									
+												 
+								</div>
+
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+
+
+			<div class="col-md-3 col-sm-12 col-xs-12">
+
+				<aside class="sidebar blog-sidebar">
+
+					<div class="widget">
+						<h3>Recent</h3>
+						
+							<div class="body">
+								<ul class="recent-post-list">
+
+									
+									<li class="sidebar-recent-post-item">
+										<div class="media">
+											<a href="" class="thumb-holder pull-left">
+												<img src="img/samsung-galaxy-s9-blue.jpg" alt="samsung_s9"/>
+											</a>
+											<div class="media-body">
+												<h5><a href="">Samsung Galaxy S9</a></h5>
+												<div class="posted-date"> 25 Aug 2019</div>
+											</div>
+										</div>
+									</li>
+									
+									<li class="sidebar-recent-post-item">
+										<div class="media">
+											<a href="" class="thumb-holder pull-left">
+												<img src="img/samsung-galaxy-s9-blue.jpg" alt="samsung_s9"/>
+											</a>
+											<div class="media-body">
+												<h5><a href="">Samsung Galaxy S9</a></h5>
+												<div class="posted-date"> 25 Aug 2019</div>
+											</div>
+										</div>
+									</li>
+									
+									<li class="sidebar-recent-post-item">
+										<div class="media">
+											<a href="" class="thumb-holder pull-left">
+												<img src="img/samsung-galaxy-s9-blue.jpg" alt="samsung_s9"/>
+											</a>
+											<div class="media-body">
+												<h5><a href="">Samsung Galaxy S9</a></h5>
+												<div class="posted-date"> 25 Aug 2019</div>
+											</div>
+										</div>
+									</li>
+									
+									<li class="sidebar-recent-post-item">
+										<div class="media">
+											<a href="" class="thumb-holder pull-left">
+												<img src="img/samsung-galaxy-s9-blue.jpg" alt="samsung_s9"/>
+											</a>
+											<div class="media-body">
+												<h5><a href="">Samsung Galaxy S9</a></h5>
+												<div class="posted-date"> 25 Aug 2019</div>
+											</div>
+										</div>
+									</li>
+
+								</ul>
+							</div>
+					</div>
+
+				</aside>
+
+			</div>
+
+		</div>
+		
+	</div>
+
+
+
+
+
+    <footer id="footer" class="">
+
+                <div class="link-list-row">
+                    <div class="container no-padding">
+                        <div class="col-xs-12 col-md-4 ">
+                            <div class="contact-info">
+                                <div class="footer-logo text-center">
+                                        <img src="img/f_logo.png" alt="Techno  Shop"/>
+                                </div>
+
+
+
+                                <div class="social-icons text-center">
+                                    <ul>
+
+                                        <li><a target="_blank" href="#" class="fab fa-facebook-f bg-light-blue"></a></li>
+
+                                        <li><a target="_blank" href="#" class="fab fa-twitter bg-aqua"></a></li>
+
+                                        <li><a target="_blank" href="#" class="fab fa-instagram bg-red"></a></li>
+
+                                        <li><a target="_blank" href="#" class="fab fa-linkedin-in bg-black"></a></li>
+
+                                        <li><a target="_blank" href="#" class="fas fa-rss bg-orange"></a></li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-8 no-margin">
+                            <div class="link-widget">
+                                <div class="widget">
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+
+                                        <li><a href="Shop.html">Shop</a></li>
+
+                                        <li><a href="Blog.html">Blog</a></li>
+
+                                        <li><a href="Contact.html">Contact Us</a></li>
+
+                                        <li><a href="About.html">About Us</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="link-widget">
+                                <div class="widget">
+                                    <ul>
+                                        <li><a href="">Terms of Service</a></li>
+                                        <li><a href="">Privacy Policy</a></li>
+                                        <li><a href="">Return Policy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="copyright-bar">
+                    <div class="container">
+                        <div class="col-md-6 col-sm-6 col-xs-12 no-margin">
+                            <div class="copyright">
+                                <strong>Copyright © 2019 UnicshopBD All Rights Reserved.</strong>	
+                                <p>Powered by Strong Signals</p>			
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 no-margin">
+                            <div class="payment-methods ">
+                                <ul>
+                                    <li><img alt="" src="img/bkash.png"></li>
+                                    <li><img alt="" src="img/rocket.png"></li>
+                                    <li><img alt="" src="img/mastercard.png"></li>
+                                    <li><img alt="" src="img/ucash.png"></li>
+                                    <li><img alt="" src="img/surecash.png"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </footer>
+
+
+
+        <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+        <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+        </script>
+
+
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/wow-owl.js"></script>
+
+
+    </body>
+</html>
