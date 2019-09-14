@@ -1,0 +1,62 @@
+body{
+	margin:0;
+	padding:0;
+	text-align:center;
+	
+	  background-image: url("body.jpg");
+  background-color: #cccccc;
+	background-size: cover;
+	background-position:center;
+	font-family: sans-serif;
+	
+}
+ .contact-title{
+	 margin:100px;
+	 color: black;
+	 text-transform: uppercase;
+	 transform: all 4 s ease-in-out;
+	
+}
+ .contact-title h1{
+	 font-size: 32px;
+	 line-height:16px;
+	
+}
+ .contact-title h2{
+	font-size:16px;
+}
+
+#form{
+	margin:60px;
+	transform:all 4s ease-in-out;
+}
+.form-control{
+	width:600px;
+	background:transparent;
+	border:none;
+	outline:none;
+	border-bottom:1px solid gray;
+	color:black;
+	font-size: 18px;
+	margin-bottom:16px;
+}
+input{
+	height:45px;
+}
+form .submit{
+	background:blue; 
+	border-color:red;
+	font-size: 20px;
+  font-weight: bold;
+  letter-spacing:2px;
+  height:50px;
+  margin-top:20px;
+	 
+}
+form.submit:hover{
+	background-color:red;
+	cursir:pointer;
+	 
+}
+
+
